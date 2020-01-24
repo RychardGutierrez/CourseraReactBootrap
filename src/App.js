@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Accordion, Card } from "react-bootstrap";
+import { Button, Accordion, Card, Alert } from "react-bootstrap";
 import "./App.css";
 
 function App() {
@@ -32,6 +32,8 @@ function App() {
           </Accordion.Collapse>
         </Card>
       </Accordion>
+
+      <Alert variant="danger">This is a Danger alert—check it out!</Alert>
     </div>
   );
 }
