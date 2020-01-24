@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, Accordion, Card, Alert } from "react-bootstrap";
+import { Button, Accordion, Card, Alert, Form } from "react-bootstrap";
+import { ReactComponent as ReactIcon } from "./assets/superpotencia.svg";
 import "./App.css";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <Button variant="primary" onClick={() => alert("Hello")} size="lg">
         Click
       </Button>
-
+      <br />
+      <ReactIcon />
       <Accordion defaultActiveKey="0">
         <Card>
           <Card.Header>
